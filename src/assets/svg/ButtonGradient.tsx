@@ -26,7 +26,7 @@ const ButtonGradient = () => {
         </linearGradient>
       </defs>
     </svg>
-  );
-};
+  )
+}
 
-export default ButtonGradient;
+export default ButtonGradient

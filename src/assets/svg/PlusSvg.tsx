@@ -1,4 +1,4 @@
-const PlusSvg = ({ className = "" }) => {
+const PlusSvg = ({ className = '' }) => {
   return (
     <svg className={`${className} || ""`} width="11" height="11" fill="none">
       <path
@@ -6,7 +6,7 @@ const PlusSvg = ({ className = "" }) => {
         fill="#ada8c4"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default PlusSvg;
+export default PlusSvg

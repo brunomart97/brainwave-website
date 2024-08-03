@@ -1,5 +1,5 @@
-const brackets = (position) =>
-  position === "left" ? (
+const Brackets = (position: string) =>
+  position === 'left' ? (
     <svg
       width="5"
       height="14"
@@ -40,6 +40,6 @@ const brackets = (position) =>
         </linearGradient>
       </defs>
     </svg>
-  );
+  )
 
-export default brackets;
+export default Brackets
